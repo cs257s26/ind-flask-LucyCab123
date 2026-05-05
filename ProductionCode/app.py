@@ -1,6 +1,6 @@
 from flask import Flask
 import csv
-from ProductionCode.command_line import *
+from command_line import *
 
 app = Flask(__name__)
 

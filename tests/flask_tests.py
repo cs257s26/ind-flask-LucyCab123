@@ -19,3 +19,7 @@ class TestSOMETHING(unittest.TestCase):
         response = self.app.get('/type/Insect/', follow_redirects=True) 
         #TestResponse has webpage in .data
         self.assertEqual(typeToList("Insect"), response.data)
+
+
+if __name__ == '__main__':
+    unittest.main()

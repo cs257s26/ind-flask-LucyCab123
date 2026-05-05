@@ -1,0 +1,2 @@
+"""This file is used to indicate to Python that the Python files in this directory should be considered part of a _package_. One way in which packages are useful is that they allow us to run Python code that's in a different directory from our working directory, without specifying a path to that directory in our code. 
+"""
