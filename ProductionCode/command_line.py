@@ -8,9 +8,8 @@ import csv
 import os
 
 class Search():
-    data = []
-    Filename = "/root/cs257/ind-flask-LucyCab123/ProductionCode/Species.csv"
     def __init__(self):
+        self.data = []
         current_dir = os.path.dirname(os.path.abspath(__file__))
         file_path = os.path.join(current_dir, 'Species.csv')
         """Loads in data from a CSV file and stores it in `data`"""
